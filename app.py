@@ -7,42 +7,52 @@ from selenium.webdriver.common.action_chains import ActionChains
 import pandas as pd
 import logging
 
-# logging.INFO = log only info and above (no debug)
-# logging.WARNING = log only warnings and above (no debug or info)
-logging.basicConfig(
-    level=logging.INFO,
-    filename="application.log",
-    format="%(asctime)s: %(levelname)s: %(message)s",
-)
+
+formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s")
+
+
+def setup_logger(name, log_file, level=logging.INFO):
+    """To setup as many loggers as you want"""
+
+    handler = logging.FileHandler(log_file)
+    handler.setFormatter(formatter)
+
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    logger.addHandler(handler)
+
+    return logger
+
+
+app_log = setup_logger("app_log", "application.log", level=logging.INFO)
+error_logger = setup_logger("error_log", "error.log", level=logging.WARNING)
 
 
 def log_warning(e, msg):
-    logging.warning(msg)
-    logging.warning(e)
+    error_logger.warning(msg)
+    error_logger.warning(e)
 
 
 def check_for_cookie_banner():
     try:
         if driver.find_element_by_id("closeCookieBanner").is_displayed():
             driver.find_element_by_id("closeCookieBanner").click()
-            logging.info("Closed Cookie Banner")
+            app_log.info("Closed Cookie Banner")
         else:
-            logging.info("Cookie banner not present, nothing to close.")
+            app_log.info("Cookie banner not present, nothing to close.")
     except:
         e = sys.exc_info()
-        logging.warning("Failed to close cookie banner")
-        logging.warning(e)
+        log_warning("Failed to close cookie banner", e)
 
 
 def get_page_items():
     try:
         item_list = driver.find_elements_by_css_selector("div.thumbnail")
-        logging.debug(f"Found item_list")
+        app_log.info(f"Found item_list")
         return item_list
     except:
         e = sys.exc_info()
-        logging.warning("Failed to find item_list")
-        logging.warning(e)
+        log_warning("Failed to find item_list", e)
         pass
 
 
@@ -56,7 +66,7 @@ end_item_list = []
 # Open browser and connect
 try:
     driver.get(target_url)
-    logging.info(f"Successfully connected to {target_url}")
+    app_log.info(f"Successfully connected to {target_url}")
 except:
     e = sys.exc_info()
     log_warning(f"Error connecting to {target_url}", e)
@@ -64,7 +74,7 @@ except:
 # Loop to iterate over desired pages
 for i in range(5):
     i += 1
-    logging.info("Running get_page_items()")
+    app_log.info("Running get_page_items()")
 
     check_for_cookie_banner()
 
@@ -84,7 +94,7 @@ for i in range(5):
                 # "url": item.find_element_by_class_name("title").get_attribute("href"),
             }
             end_item_list.append(item_dict)
-            logging.info(item_dict)
+            app_log.info(item_dict)
         except:
             e = sys.exc_info()
             log_warning("Encountered an error while creating item_dict", e)
@@ -93,23 +103,23 @@ for i in range(5):
     # Moving to next pagination
     # This is kind of strange, but it works and it works well.
     x_path = f"/html/body/div[1]/div[3]/div/div[2]/div[2]/button[{i}]"
-    logging.info("Looking for pagination button")
+    app_log.info("Looking for pagination button")
 
     if i == 1:
-        logging.info(f"Skipping button {i}")
+        app_log.info(f"Skipping button {i}")
         pass
     else:
         try:
             button = driver.find_element_by_xpath(x_path)
-            logging.info(f"Found pagination button {i}")
+            app_log.info(f"Found pagination button {i}")
             button.click()
-            logging.info(f"Pagination button {i} has been clicked")
+            app_log.info(f"Pagination button {i} has been clicked")
         except:
             e = sys.exc_info()
             log_warning(f"Failed to find or click pagination button {i}", e)
 
     # Wait for page to fully load
-    logging.info("Waiting for page to reload")
+    app_log.info("Waiting for page to reload")
     # Waiting for one second seemed to ensure everything was loaded correctly
     # far more reliably than using WebDriverWait on any element. I was still getting
     # missing pieces due to StaleElementReference errors
@@ -125,19 +135,19 @@ def convert_reviews(review):
 # Ask me why I used pandas to create a dataframe and save to csv instead of with open()
 try:
     df = pd.DataFrame(end_item_list)
-    logging.info("Successfully created dataframe")
+    app_log.info("Successfully created dataframe")
 except:
     e = sys.exc_info()
     log_warning("Failed to create dataframe", e)
 
-logging.info("Dropping duplicates")
+app_log.info("Dropping duplicates")
 df = df.drop_duplicates()
 
-logging.info("Converting reviews into integers only")
+app_log.info("Converting reviews into integers only")
 df.reviews = df.reviews.apply(convert_reviews)
 
 df.to_csv("test.csv")
 
 # Close browser upon completion
-logging.info(f"Completed site scraping.")
+app_log.info(f"Completed site scraping.")
 driver.quit()
