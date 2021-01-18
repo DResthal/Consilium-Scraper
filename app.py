@@ -127,7 +127,7 @@ for i in range(5):
 
 ################################# Data Processing ##############################################
 def convert_reviews(review):
-    stripped_review = re.sub("[^0-9]", "", review)
+    stripped_review = int(re.sub("[^0-9]", "", review))
     return stripped_review
 
 

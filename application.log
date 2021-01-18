@@ -1,0 +1,202 @@
+2021-01-18 09:25:03,053: INFO: Successfully connected to https://webscraper.io/test-sites/e-commerce/ajax/computers/laptops
+2021-01-18 09:25:03,054: INFO: Running get_page_items()
+2021-01-18 09:25:03,267: INFO: Cookie banner not present, nothing to close.
+2021-01-18 09:25:03,540: INFO: {'title': 'Asus VivoBook X4', 'price': '$295.99', 'reviews': '1 reviews'}
+2021-01-18 09:25:03,668: INFO: {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:25:03,776: INFO: {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:25:03,901: INFO: {'title': 'Aspire E1-510', 'price': '$306.99', 'reviews': '2 reviews'}
+2021-01-18 09:25:04,131: INFO: {'title': 'Lenovo V110-15IA', 'price': '$321.94', 'reviews': '12 reviews'}
+2021-01-18 09:25:04,244: INFO: {'title': 'Lenovo V110-15IA', 'price': '$356.49', 'reviews': '12 reviews'}
+2021-01-18 09:25:04,245: INFO: Looking for pagination button
+2021-01-18 09:25:04,245: INFO: Skipping button 1
+2021-01-18 09:25:04,245: INFO: Waiting for page to reload
+2021-01-18 09:25:05,258: INFO: Running get_page_items()
+2021-01-18 09:25:05,286: INFO: Cookie banner not present, nothing to close.
+2021-01-18 09:25:05,373: INFO: {'title': 'Asus VivoBook X4', 'price': '$295.99', 'reviews': '1 reviews'}
+2021-01-18 09:25:05,457: INFO: {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:25:05,528: INFO: {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:25:05,599: INFO: {'title': 'Aspire E1-510', 'price': '$306.99', 'reviews': '2 reviews'}
+2021-01-18 09:25:05,669: INFO: {'title': 'Lenovo V110-15IA', 'price': '$321.94', 'reviews': '12 reviews'}
+2021-01-18 09:25:05,737: INFO: {'title': 'Lenovo V110-15IA', 'price': '$356.49', 'reviews': '12 reviews'}
+2021-01-18 09:25:05,737: INFO: Looking for pagination button
+2021-01-18 09:25:05,765: INFO: Found pagination button 2
+2021-01-18 09:25:05,870: INFO: Pagination button 2 has been clicked
+2021-01-18 09:25:05,870: INFO: Waiting for page to reload
+2021-01-18 09:25:06,879: INFO: Running get_page_items()
+2021-01-18 09:25:06,900: INFO: Cookie banner not present, nothing to close.
+2021-01-18 09:25:07,039: INFO: {'title': 'Hewlett Packard', 'price': '$364.46', 'reviews': '11 reviews'}
+2021-01-18 09:25:07,154: INFO: {'title': 'Acer Aspire 3 A3', 'price': '$372.70', 'reviews': '3 reviews'}
+2021-01-18 09:25:07,271: INFO: {'title': 'Acer Aspire A315', 'price': '$379.94', 'reviews': '3 reviews'}
+2021-01-18 09:25:07,390: INFO: {'title': 'Acer Aspire ES1-', 'price': '$379.95', 'reviews': '3 reviews'}
+2021-01-18 09:25:07,507: INFO: {'title': 'Acer Aspire 3 A3', 'price': '$391.48', 'reviews': '3 reviews'}
+2021-01-18 09:25:07,622: INFO: {'title': 'Acer Aspire 3 A3', 'price': '$393.88', 'reviews': '3 reviews'}
+2021-01-18 09:25:07,622: INFO: Looking for pagination button
+2021-01-18 09:25:07,638: INFO: Found pagination button 3
+2021-01-18 09:25:07,697: INFO: Pagination button 3 has been clicked
+2021-01-18 09:25:07,697: INFO: Waiting for page to reload
+2021-01-18 09:25:08,700: INFO: Running get_page_items()
+2021-01-18 09:25:08,728: INFO: Cookie banner not present, nothing to close.
+2021-01-18 09:25:08,876: INFO: {'title': 'Asus VivoBook Ma', 'price': '$399.00', 'reviews': '1 reviews'}
+2021-01-18 09:25:09,013: INFO: {'title': 'Asus VivoBook E5', 'price': '$399.99', 'reviews': '1 reviews'}
+2021-01-18 09:25:09,134: INFO: {'title': 'Lenovo ThinkPad', 'price': '$404.23', 'reviews': '12 reviews'}
+2021-01-18 09:25:09,259: INFO: {'title': 'Acer Aspire 3 A3', 'price': '$408.98', 'reviews': '3 reviews'}
+2021-01-18 09:25:09,376: INFO: {'title': 'Lenovo V110-15IS', 'price': '$409.63', 'reviews': '12 reviews'}
+2021-01-18 09:25:09,491: INFO: {'title': 'Acer Aspire ES1-', 'price': '$410.46', 'reviews': '3 reviews'}
+2021-01-18 09:25:09,491: INFO: Looking for pagination button
+2021-01-18 09:25:09,507: INFO: Found pagination button 4
+2021-01-18 09:25:09,565: INFO: Pagination button 4 has been clicked
+2021-01-18 09:25:09,565: INFO: Waiting for page to reload
+2021-01-18 09:25:10,567: INFO: Running get_page_items()
+2021-01-18 09:25:10,593: INFO: Cookie banner not present, nothing to close.
+2021-01-18 09:25:10,748: INFO: {'title': 'Asus VivoBook 15', 'price': '$410.66', 'reviews': '1 reviews'}
+2021-01-18 09:25:10,868: INFO: {'title': 'Packard 255 G2', 'price': '$416.99', 'reviews': '7 reviews'}
+2021-01-18 09:25:10,977: INFO: {'title': 'Asus EeeBook R41', 'price': '$433.30', 'reviews': '1 reviews'}
+2021-01-18 09:25:11,123: INFO: {'title': 'Acer Aspire 3 A3', 'price': '$436.29', 'reviews': '3 reviews'}
+2021-01-18 09:25:11,238: INFO: {'title': 'Acer Aspire ES1-', 'price': '$436.29', 'reviews': '3 reviews'}
+2021-01-18 09:25:11,359: INFO: {'title': 'Acer Extensa 15', 'price': '$439.73', 'reviews': '3 reviews'}
+2021-01-18 09:25:11,359: INFO: Looking for pagination button
+2021-01-18 09:25:11,374: INFO: Found pagination button 5
+2021-01-18 09:25:11,431: INFO: Pagination button 5 has been clicked
+2021-01-18 09:25:11,432: INFO: Waiting for page to reload
+2021-01-18 09:25:12,457: INFO: Successfully created dataframe
+2021-01-18 09:25:12,457: INFO: Dropping duplicates
+2021-01-18 09:25:12,470: INFO: Converting reviews into integers only
+2021-01-18 09:25:12,479: INFO: Completed site scraping.
+2021-01-18 09:33:28,154 INFO Successfully connected to https://webscraper.io/test-sites/e-commerce/ajax/computers/laptops
+2021-01-18 09:33:28,154 INFO Running get_page_items()
+2021-01-18 09:33:28,225 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:33:28,259 INFO Found item_list
+2021-01-18 09:33:28,403 INFO {'title': 'Asus VivoBook X4', 'price': '$295.99', 'reviews': '1 reviews'}
+2021-01-18 09:33:28,532 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:33:28,654 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:33:28,783 INFO {'title': 'Aspire E1-510', 'price': '$306.99', 'reviews': '2 reviews'}
+2021-01-18 09:33:28,917 INFO {'title': 'Lenovo V110-15IA', 'price': '$321.94', 'reviews': '12 reviews'}
+2021-01-18 09:33:29,045 INFO {'title': 'Lenovo V110-15IA', 'price': '$356.49', 'reviews': '12 reviews'}
+2021-01-18 09:33:29,045 INFO Looking for pagination button
+2021-01-18 09:33:29,046 INFO Skipping button 1
+2021-01-18 09:33:29,046 INFO Waiting for page to reload
+2021-01-18 09:33:30,060 INFO Running get_page_items()
+2021-01-18 09:33:30,087 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:33:30,098 INFO Found item_list
+2021-01-18 09:33:30,183 INFO {'title': 'Asus VivoBook X4', 'price': '$295.99', 'reviews': '1 reviews'}
+2021-01-18 09:33:30,270 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:33:30,349 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:33:30,433 INFO {'title': 'Aspire E1-510', 'price': '$306.99', 'reviews': '2 reviews'}
+2021-01-18 09:33:30,520 INFO {'title': 'Lenovo V110-15IA', 'price': '$321.94', 'reviews': '12 reviews'}
+2021-01-18 09:33:30,605 INFO {'title': 'Lenovo V110-15IA', 'price': '$356.49', 'reviews': '12 reviews'}
+2021-01-18 09:33:30,606 INFO Looking for pagination button
+2021-01-18 09:33:30,621 INFO Found pagination button 2
+2021-01-18 09:33:30,751 INFO Pagination button 2 has been clicked
+2021-01-18 09:33:30,752 INFO Waiting for page to reload
+2021-01-18 09:33:31,764 INFO Running get_page_items()
+2021-01-18 09:33:31,872 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:33:31,892 INFO Found item_list
+2021-01-18 09:33:32,285 INFO {'title': 'Hewlett Packard', 'price': '$364.46', 'reviews': '11 reviews'}
+2021-01-18 09:33:32,979 INFO {'title': 'Acer Aspire 3 A3', 'price': '$372.70', 'reviews': '3 reviews'}
+2021-01-18 09:33:33,564 INFO {'title': 'Acer Aspire A315', 'price': '$379.94', 'reviews': '3 reviews'}
+2021-01-18 09:33:33,917 INFO {'title': 'Acer Aspire ES1-', 'price': '$379.95', 'reviews': '3 reviews'}
+2021-01-18 09:33:34,191 INFO {'title': 'Acer Aspire 3 A3', 'price': '$391.48', 'reviews': '3 reviews'}
+2021-01-18 09:33:34,823 INFO {'title': 'Acer Aspire 3 A3', 'price': '$393.88', 'reviews': '3 reviews'}
+2021-01-18 09:33:34,823 INFO Looking for pagination button
+2021-01-18 09:33:34,897 INFO Found pagination button 3
+2021-01-18 09:33:35,024 INFO Pagination button 3 has been clicked
+2021-01-18 09:33:35,024 INFO Waiting for page to reload
+2021-01-18 09:33:36,031 INFO Running get_page_items()
+2021-01-18 09:33:36,075 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:33:36,090 INFO Found item_list
+2021-01-18 09:33:36,280 INFO {'title': 'Asus VivoBook Ma', 'price': '$399.00', 'reviews': '1 reviews'}
+2021-01-18 09:33:36,583 INFO {'title': 'Asus VivoBook E5', 'price': '$399.99', 'reviews': '1 reviews'}
+2021-01-18 09:33:36,941 INFO {'title': 'Lenovo ThinkPad', 'price': '$404.23', 'reviews': '12 reviews'}
+2021-01-18 09:33:37,241 INFO {'title': 'Acer Aspire 3 A3', 'price': '$408.98', 'reviews': '3 reviews'}
+2021-01-18 09:33:37,730 INFO {'title': 'Lenovo V110-15IS', 'price': '$409.63', 'reviews': '12 reviews'}
+2021-01-18 09:33:38,032 INFO {'title': 'Acer Aspire ES1-', 'price': '$410.46', 'reviews': '3 reviews'}
+2021-01-18 09:33:38,033 INFO Looking for pagination button
+2021-01-18 09:33:38,087 INFO Found pagination button 4
+2021-01-18 09:33:38,246 INFO Pagination button 4 has been clicked
+2021-01-18 09:33:38,247 INFO Waiting for page to reload
+2021-01-18 09:33:39,261 INFO Running get_page_items()
+2021-01-18 09:33:39,333 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:33:39,351 INFO Found item_list
+2021-01-18 09:33:39,571 INFO {'title': 'Asus VivoBook 15', 'price': '$410.66', 'reviews': '1 reviews'}
+2021-01-18 09:33:39,857 INFO {'title': 'Packard 255 G2', 'price': '$416.99', 'reviews': '7 reviews'}
+2021-01-18 09:33:40,090 INFO {'title': 'Asus EeeBook R41', 'price': '$433.30', 'reviews': '1 reviews'}
+2021-01-18 09:33:40,275 INFO {'title': 'Acer Aspire 3 A3', 'price': '$436.29', 'reviews': '3 reviews'}
+2021-01-18 09:33:40,430 INFO {'title': 'Acer Aspire ES1-', 'price': '$436.29', 'reviews': '3 reviews'}
+2021-01-18 09:33:40,690 INFO {'title': 'Acer Extensa 15', 'price': '$439.73', 'reviews': '3 reviews'}
+2021-01-18 09:33:40,690 INFO Looking for pagination button
+2021-01-18 09:33:40,722 INFO Found pagination button 5
+2021-01-18 09:33:40,846 INFO Pagination button 5 has been clicked
+2021-01-18 09:33:40,847 INFO Waiting for page to reload
+2021-01-18 09:33:41,850 INFO Successfully created dataframe
+2021-01-18 09:33:41,851 INFO Dropping duplicates
+2021-01-18 09:33:41,854 INFO Converting reviews into integers only
+2021-01-18 09:33:41,868 INFO Completed site scraping.
+2021-01-18 09:37:35,591 INFO Successfully connected to https://webscraper.io/test-sites/e-commerce/ajax/computers/laptops
+2021-01-18 09:37:35,591 INFO Running get_page_items()
+2021-01-18 09:37:35,822 INFO Closed Cookie Banner
+2021-01-18 09:37:35,883 INFO Found item_list
+2021-01-18 09:37:36,168 INFO {'title': 'Asus VivoBook X4', 'price': '$295.99', 'reviews': '1 reviews'}
+2021-01-18 09:37:36,388 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:37:36,715 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:37:36,953 INFO {'title': 'Aspire E1-510', 'price': '$306.99', 'reviews': '2 reviews'}
+2021-01-18 09:37:37,184 INFO {'title': 'Lenovo V110-15IA', 'price': '$321.94', 'reviews': '12 reviews'}
+2021-01-18 09:37:37,419 INFO {'title': 'Lenovo V110-15IA', 'price': '$356.49', 'reviews': '12 reviews'}
+2021-01-18 09:37:37,419 INFO Looking for pagination button
+2021-01-18 09:37:37,419 INFO Skipping button 1
+2021-01-18 09:37:37,420 INFO Waiting for page to reload
+2021-01-18 09:37:38,435 INFO Running get_page_items()
+2021-01-18 09:37:38,489 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:37:38,508 INFO Found item_list
+2021-01-18 09:37:38,636 INFO {'title': 'Asus VivoBook X4', 'price': '$295.99', 'reviews': '1 reviews'}
+2021-01-18 09:37:38,805 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:37:38,938 INFO {'title': 'Prestigio SmartB', 'price': '$299.00', 'reviews': '9 reviews'}
+2021-01-18 09:37:39,075 INFO {'title': 'Aspire E1-510', 'price': '$306.99', 'reviews': '2 reviews'}
+2021-01-18 09:37:39,204 INFO {'title': 'Lenovo V110-15IA', 'price': '$321.94', 'reviews': '12 reviews'}
+2021-01-18 09:37:39,332 INFO {'title': 'Lenovo V110-15IA', 'price': '$356.49', 'reviews': '12 reviews'}
+2021-01-18 09:37:39,333 INFO Looking for pagination button
+2021-01-18 09:37:39,361 INFO Found pagination button 2
+2021-01-18 09:37:39,521 INFO Pagination button 2 has been clicked
+2021-01-18 09:37:39,522 INFO Waiting for page to reload
+2021-01-18 09:37:40,531 INFO Running get_page_items()
+2021-01-18 09:37:40,574 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:37:40,591 INFO Found item_list
+2021-01-18 09:37:40,852 INFO {'title': 'Hewlett Packard', 'price': '$364.46', 'reviews': '11 reviews'}
+2021-01-18 09:37:41,167 INFO {'title': 'Acer Aspire 3 A3', 'price': '$372.70', 'reviews': '3 reviews'}
+2021-01-18 09:37:41,437 INFO {'title': 'Acer Aspire A315', 'price': '$379.94', 'reviews': '3 reviews'}
+2021-01-18 09:37:41,663 INFO {'title': 'Acer Aspire ES1-', 'price': '$379.95', 'reviews': '3 reviews'}
+2021-01-18 09:37:41,883 INFO {'title': 'Acer Aspire 3 A3', 'price': '$391.48', 'reviews': '3 reviews'}
+2021-01-18 09:37:42,173 INFO {'title': 'Acer Aspire 3 A3', 'price': '$393.88', 'reviews': '3 reviews'}
+2021-01-18 09:37:42,173 INFO Looking for pagination button
+2021-01-18 09:37:42,215 INFO Found pagination button 3
+2021-01-18 09:37:42,347 INFO Pagination button 3 has been clicked
+2021-01-18 09:37:42,347 INFO Waiting for page to reload
+2021-01-18 09:37:43,360 INFO Running get_page_items()
+2021-01-18 09:37:43,403 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:37:43,419 INFO Found item_list
+2021-01-18 09:37:43,636 INFO {'title': 'Asus VivoBook Ma', 'price': '$399.00', 'reviews': '1 reviews'}
+2021-01-18 09:37:43,855 INFO {'title': 'Asus VivoBook E5', 'price': '$399.99', 'reviews': '1 reviews'}
+2021-01-18 09:37:44,083 INFO {'title': 'Lenovo ThinkPad', 'price': '$404.23', 'reviews': '12 reviews'}
+2021-01-18 09:37:44,310 INFO {'title': 'Acer Aspire 3 A3', 'price': '$408.98', 'reviews': '3 reviews'}
+2021-01-18 09:37:44,560 INFO {'title': 'Lenovo V110-15IS', 'price': '$409.63', 'reviews': '12 reviews'}
+2021-01-18 09:37:44,787 INFO {'title': 'Acer Aspire ES1-', 'price': '$410.46', 'reviews': '3 reviews'}
+2021-01-18 09:37:44,787 INFO Looking for pagination button
+2021-01-18 09:37:44,818 INFO Found pagination button 4
+2021-01-18 09:37:44,920 INFO Pagination button 4 has been clicked
+2021-01-18 09:37:44,920 INFO Waiting for page to reload
+2021-01-18 09:37:45,932 INFO Running get_page_items()
+2021-01-18 09:37:45,974 INFO Cookie banner not present, nothing to close.
+2021-01-18 09:37:45,992 INFO Found item_list
+2021-01-18 09:37:46,222 INFO {'title': 'Asus VivoBook 15', 'price': '$410.66', 'reviews': '1 reviews'}
+2021-01-18 09:37:46,450 INFO {'title': 'Packard 255 G2', 'price': '$416.99', 'reviews': '7 reviews'}
+2021-01-18 09:37:46,666 INFO {'title': 'Asus EeeBook R41', 'price': '$433.30', 'reviews': '1 reviews'}
+2021-01-18 09:37:46,985 INFO {'title': 'Acer Aspire 3 A3', 'price': '$436.29', 'reviews': '3 reviews'}
+2021-01-18 09:37:47,261 INFO {'title': 'Acer Aspire ES1-', 'price': '$436.29', 'reviews': '3 reviews'}
+2021-01-18 09:37:47,487 INFO {'title': 'Acer Extensa 15', 'price': '$439.73', 'reviews': '3 reviews'}
+2021-01-18 09:37:47,487 INFO Looking for pagination button
+2021-01-18 09:37:47,520 INFO Found pagination button 5
+2021-01-18 09:37:47,643 INFO Pagination button 5 has been clicked
+2021-01-18 09:37:47,644 INFO Waiting for page to reload
+2021-01-18 09:37:48,650 INFO Successfully created dataframe
+2021-01-18 09:37:48,650 INFO Dropping duplicates
+2021-01-18 09:37:48,656 INFO Converting reviews into integers only
+2021-01-18 09:37:48,672 INFO Completed site scraping.
