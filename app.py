@@ -85,7 +85,7 @@ for i in range(5):
         try:
             # I originally had the description and url fields saved for two reasons
             # A. If I were scraping this data for myself, I'd like to have these two fields
-            # B. I needed a way to ensure I was not getting duplicates during early development
+            # B. I needed a way to ensure I was not getting duplicates during early development, which I was.
             item_dict = {
                 "title": item.find_element_by_class_name("title").text,
                 "price": item.find_element_by_class_name("price").text,
@@ -132,7 +132,7 @@ def convert_reviews(review):
 
 
 # Processing data pulled from site
-# Ask me why I used pandas to create a dataframe and save to csv instead of with open()
+# Ask me why I used pandas to create a dataframe and save to csv instead of with open() or another method.
 try:
     df = pd.DataFrame(end_item_list)
     app_log.info("Successfully created dataframe")
